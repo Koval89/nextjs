@@ -8,6 +8,9 @@ type PostsProps={
 
 
 const PostsComponent:FC<PostsProps> = ({posts}) => {
+
+
+
     return (
         <div>
             {posts.map(({id,title}) =>(<div key={id}>

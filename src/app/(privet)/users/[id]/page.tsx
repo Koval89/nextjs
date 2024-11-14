@@ -31,6 +31,7 @@ const UserPage = async ({params}:{params:Params}) => {
                 <li>{user.company.name}</li>
             </ul>
         </div>
+
     );
 };
 

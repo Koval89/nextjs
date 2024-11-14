@@ -6,10 +6,14 @@ const PostsPage = async () => {
     const posts = await fetch('https://jsonplaceholder.typicode.com/posts')
         .then(res => res.json())
 
+const lift  = async (id:number)=> {
+
+}
+
 
     return (
         <div>
-            <PostsComponent posts={posts}/>
+            <PostsComponent posts={posts} />
         </div>
     );
 };
